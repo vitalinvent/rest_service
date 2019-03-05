@@ -1,0 +1,2 @@
+
+CLASSES_ENTITIES_OBJECTS_FULL_PATH=C:\\dev\\java\\biplane_postgresql_uploader\\biplane_postgresql_uploader\\objects\\ 

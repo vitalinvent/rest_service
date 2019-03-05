@@ -1,0 +1,35 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+             http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+             version="2.1">
+    <!--<persistence-unit name="strani_mira" transaction-type="RESOURCE_LOCAL">-->
+        <!--<class>strani_mira</class>-->
+    <!--</persistence-unit>-->
+
+    <persistence-unit name="persistenceUnitName" transaction-type="RESOURCE_LOCAL">
+
+        <!--<mapping-file>orm.xml</mapping-file>-->
+        <!--<class>strani_mira</class>-->
+
+        <properties>
+            <!--<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" /> &lt;!&ndash; DB Driver &ndash;&gt;-->
+            <!--<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/biplane" /> &lt;!&ndash; BD Mane &ndash;&gt;-->
+            <!--<property name="javax.persistence.jdbc.user" value="multiuser" /> &lt;!&ndash; DB User &ndash;&gt;-->
+            <!--<property name="javax.persistence.jdbc.password" value="123456" /> &lt;!&ndash; DB Password &ndash;&gt;-->
+
+            <!--&lt;!&ndash;<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/> &lt;!&ndash; DB Dialect &ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;<property name="hibernate.hbm2ddl.auto" value="update" /> &lt;!&ndash; create / create-drop / update &ndash;&gt;&ndash;&gt;-->
+
+            <!--<property name="hibernate.show_sql" value="true" /> &lt;!&ndash; Show SQL in console &ndash;&gt;-->
+            <!--<property name="hibernate.format_sql" value="true" /> &lt;!&ndash; Show SQL formatted &ndash;&gt;-->
+            <!--<property name="hibernate.default_entity_mode" value="dynamic-map"/>-->
+            <!--&lt;!&ndash;<property name="hbm2ddl.auto" value="update"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<property name="spring.jpa.hibernate.ddl-auto" value="create"/>&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<property name="hibernate.archive.autodetection" value="class, hbm" />&ndash;&gt;-->
+        </properties>
+
+    </persistence-unit>
+
+</persistence>

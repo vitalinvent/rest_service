@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/biplane2</property>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.username">multiuser</property>
+        <property name="hibernate.connection.password">123456</property>
+        <property name="connection.autocommit">true</property>
+        <property name="hibernate.default_entity_mode">dynamic-map</property>
+        <property name="spring.jpa.database-platform">org.hibernate.dialect.PostgreSQLDialect</property>
+        <!--<property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/biplane</property>-->
+        <!--<property name="hibernate.connection.driver_class">org.postgresql.Driver</property>-->
+        <!--<property name="hibernate.connection.username">multiuser</property>-->
+        <!--<property name="hibernate.connection.password">123456</property>-->
+        <!--<property name="connection.autocommit">true</property>-->
+        <!--<property name="hibernate.default_entity_mode">dynamic-map</property>-->
+        <!--&lt;!&ndash;<property name="hbm2ddl.auto">update</property>&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="spring.jpa.hibernate.ddl-auto">create</property>&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="hibernate.archive.autodetection">class, hbm</property>&ndash;&gt;-->
+        <!--&lt;!&ndash; DB schema will be updated if needed &ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="hibernate.default_schema">main</property>&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="classesHibernate.archive.autodetection">class,hbm</property>&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="hibernate.show_sql">false</property>&ndash;&gt;-->
+        <!--<property name="spring.jpa.database-platform">org.hibernate.dialect.PostgreSQLDialect</property>-->
+    </session-factory>
+</hibernate-configuration>
